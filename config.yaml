@@ -1,0 +1,36 @@
+baseurl: /
+languageCode: en-us
+theme: hugo-theme-hello-friend
+paginate: 5
+params:
+  contentTypeName: post
+  defaultTheme: dark
+  showMenuItems: 2
+  showReadingTime: no
+languages:
+  en:
+    copyright: ''
+    dateFormatList: '2022-06-02'
+    dateFormatSingle: '2022-06-02'
+    keywords: ''
+    menu:
+      main:
+        - identifier: about
+          name: About
+          url: /about
+        - identifier: showcase
+          name: Showcase
+          url: /showcase
+    menuMore: Show more
+    minuteReadingTime: min read
+    newerPosts: Newer posts
+    olderPosts: Older posts
+    params:
+      logo:
+        logoHomeLink: /
+        logoText: 庞敏工作室
+    readMore: Read more
+    readOtherPosts: Read other posts
+    subtitle: 庞敏工作室
+    title: 庞敏工作室
+    writtenBy: Written by
